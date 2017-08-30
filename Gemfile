@@ -6,7 +6,7 @@ end
 ruby '2.4.1'
 
 gem 'rails', '~> 5.1.3'
-# gem 'sqlite3', '~> 1.3.13'
+gem 'sqlite3', '~> 1.3.13'
 # gem 'pg'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
@@ -17,6 +17,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'hamlit'
+gem 'devise', '~> 4.2'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
